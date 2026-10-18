@@ -7,7 +7,7 @@ L.MainFrame = "Deadly Boss Mods"
 
 L.TranslationByPrefix		= "Retail backport por "
 L.TranslationBy			= "Barsoom, Bunny67, Zidras, Nick"
-L.Website					= "Informa de errores en DBM-Yggdrasil |cFF73C2FBhttps://github.com/YggdrasilWotLK/DBM-Yggdrasil|r"
+L.Website					= "Informa de errores en DBM-Yggdrasil |cFF73C2FBhttps://github.com/yggdrasilcore/DBM-Yggdrasil|r"
 L.WebsiteButton				= "Página web"
 
 L.OTabBosses	= "Jefes"

@@ -1647,7 +1647,7 @@ private.yggWarned = private.yggWarned or {} -- [fullTargetName] = GetTime() of l
 private.yggPending = private.yggPending or {} -- [fullTargetName] = { short = <shortname>, primary = bool, fallback = bool }
 
 function DBM:YggWarnMsg()
-	return "Hey, I see you're using an incompatible DBM version for Yggdrasil. Yggdrasil's DBM is available on github.com/YggdrasilWotLK/DBM-Yggdrasil or the Yggdrasil website downloads portal."
+	return "Hey, I see you're using an incompatible DBM version for Yggdrasil. Yggdrasil's DBM is available on github.com/yggdrasilcore/DBM-Yggdrasil or the Yggdrasil website downloads portal."
 end
 
 function DBM:YggIsSelfYgg()
@@ -4519,7 +4519,7 @@ do
 	end
 
 	function DBM:ShowUpdateReminder(newVersion, newRevision, text, url)
-		urlText = url or L.UPDATEREMINDER_URL or "https://github.com/YggdrasilWotLK/DBM-Yggdrasil"
+		urlText = url or L.UPDATEREMINDER_URL or "https://github.com/yggdrasilcore/DBM-Yggdrasil"
 		if not frame then
 			createFrame()
 		else

@@ -80,7 +80,7 @@ L.Lowest							= "Наименьший таймер наверху"
 
 L.TranslationByPrefix		= "Retail backport by "
 L.TranslationBy				= "Barsoom, Bunny67, Zidras, Nick"
-L.Website					= "Сообщайте об ошибках в DBM-Yggdrasil |cFF73C2FBhttps://github.com/YggdrasilWotLK/DBM-Yggdrasil|r"
+L.Website					= "Сообщайте об ошибках в DBM-Yggdrasil |cFF73C2FBhttps://github.com/yggdrasilcore/DBM-Yggdrasil|r"
 L.WebsiteButton				= "Форумы"
 
 L.OTabBosses				= "Боссы"

@@ -74,11 +74,11 @@ local function CreateOurFrame()
 end
 
 function DBM:ShowUpdateReminder(newVersion, newRevision, text, url)
-	urlText = url or "https://github.com/YggdrasilWotLK/DBM-Yggdrasil"
+	urlText = url or "https://github.com/yggdrasilcore/DBM-Yggdrasil"
 	if not frame then
 		CreateOurFrame()
 	end
-	editBox:SetText(url or "https://github.com/YggdrasilWotLK/DBM-Yggdrasil")
+	editBox:SetText(url or "https://github.com/yggdrasilcore/DBM-Yggdrasil")
 	editBox:HighlightText()
 	frame:Show()
 	if newVersion then
