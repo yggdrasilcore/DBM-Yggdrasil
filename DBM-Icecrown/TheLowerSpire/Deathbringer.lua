@@ -25,7 +25,7 @@ local canVanish = select(2, UnitClass("player")) == "ROGUE"
 local myRealm = select(3, DBM:GetMyPlayerInfo())
 
 -- General
-local timerCombatStart		= mod:NewCombatTimer(40.9)
+local timerCombatStart		= mod:NewCombatTimer(46)
 local enrageTimer			= mod:NewBerserkTimer((myRealm == "Lordaeron" or myRealm == "Frostmourne") and 420 or 480)
 
 mod:RemoveOption("HealthFrame")
@@ -229,7 +229,7 @@ function mod:CHAT_MSG_MONSTER_YELL(msg)
 			DBM.RangeCheck:Show(12)
 		end
 	elseif msg:find(L.PullHorde, 1, true) then
-		timerCombatStart:Start(80.5)
+		timerCombatStart:Start(77.5)
 		if self.Options.RangeFrame then
 			DBM.RangeCheck:Show(12)
 		end
