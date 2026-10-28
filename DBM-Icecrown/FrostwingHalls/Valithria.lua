@@ -40,7 +40,7 @@ local specWarnSuppressers	= mod:NewSpecialWarningSpell(70935)
 
 local timerLayWaste			= mod:NewBuffActiveTimer(12, 69325, nil, nil, nil, 2)
 local timerNextPortal		= mod:NewCDCountTimer(46.5, 72483, nil, nil, nil, 5, nil, DBM_COMMON_L.HEALER_ICON)
-local timerPortalsOpen		= mod:NewTimer(6, "TimerPortalsOpen", 72483, nil, nil, 6, nil, nil, nil, nil, nil, nil, nil, 72483)
+local timerPortalsOpen		= mod:NewTimer(15, "TimerPortalsOpen", 72483, nil, nil, 6, nil, nil, nil, nil, nil, nil, nil, 72483)
 local timerPortalsClose		= mod:NewTimer(10, "TimerPortalsClose", 72483, nil, nil, 6, nil, nil, nil, nil, nil, nil, nil, 72483)
 local timerHealerBuff		= mod:NewBuffFadesTimer(40, 70873, nil, nil, nil, 5, nil, DBM_COMMON_L.HEALER_ICON)
 local timerGutSpray			= mod:NewTargetTimer(12, 70633, nil, "Tank|Healer", nil, 5)
